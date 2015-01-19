@@ -23,4 +23,4 @@ log/*.log
 tmp
 /vendor/
 
-
+/public/assets/
