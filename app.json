@@ -1,0 +1,13 @@
+{
+  "name": "jdp-rails",
+  "website": "https://github.com/sohosai/jdp-rails",
+  "repositoru": "https://github.com/sohosai/jdp-rails",
+  "success_url": "/",
+  "addons": ["heroku-postgresql:hobby-dev"],
+  "env": {
+    "RAILS_ENV": "production"
+  },
+  "scripts": {
+    "postdeploy": "bundle exec rake db:migrate"
+  }
+}
