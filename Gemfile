@@ -21,5 +21,5 @@ end
 group :production do
   gem 'pg'
   gem 'rack-ssl', :require => 'rack/ssl'
-  gem 'rails_12factor'
+  gem 'rails_stdout_logging'
 end
