@@ -60,5 +60,8 @@ module ConnectOp
     #   end
     # end
     # config.middleware.insert_before ActionDispatch::Cookies, RequestResponseLogger
+
+    # force ssl
+    config.force_ssl = true
   end
 end
