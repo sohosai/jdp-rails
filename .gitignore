@@ -12,9 +12,15 @@ tmtags
 
 ## VIM
 *.swp
+.*.sw[a-z]
+
+*~
 
 ## PROJECT::GENERAL
 .bundle
 db/*.sqlite3
 log/*.log
 tmp
+/vendor/
+
+
